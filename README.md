@@ -75,9 +75,16 @@ Use the following prompt examples in comments or as file starters:
 // Return appropriate status codes and handle null values.
 ```
 
----
+```
+// Create a C# class named Product that will be used as an Entity Framework Core model.
+// Apply data annotations for validation and schema definition.
+// Include properties: Id (int), Name (string), Description (string?), Price (decimal), CreatedAt (DateTime).
+// Use PascalCase naming convention. Mark Id as the primary key with [Key].
+// Make Name required with a maximum length of 100 characters.
+// Set Price with [Range] validation (0.01 to 10000).
+// Set CreatedAt to default to current time.
+// Use nullable reference types and immutability where possible.
+// Add XML summary comments for each property.
 
-> 🎯 Use these templates and tips in your comments or code files to guide Copilot more effectively while working in Visual Studio or VS Code.
-
----
+```
 
