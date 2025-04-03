@@ -88,3 +88,18 @@ Use the following prompt examples in comments or as file starters:
 
 ```
 
+```
+// Create a C# class named Product that will be used as an Entity Framework Core model.
+// Include properties: Id (int), Name (string), Description (string?), Price (decimal), CreatedAt (DateTime).
+// Use PascalCase naming convention. Use nullable reference types where appropriate.
+// Create a separate EF Core configuration class ProductConfiguration that implements IEntityTypeConfiguration<Product>.
+// In the configuration class, use Fluent API (ModelBuilder) to:
+// - Set Id as the primary key
+// - Set Name as required with max length 100
+// - Set Description as optional
+// - Set Price with range validation (0.01 to 10000) — if range not possible via Fluent API, leave comment
+// - Set CreatedAt to have default value of current UTC time
+// Use XML summary comments in the model class.
+
+```
+
